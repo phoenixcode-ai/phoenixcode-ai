@@ -5,9 +5,15 @@
 
 ### AI-augmented modernization of legacy code
 
-Turning **Delphi · COBOL · VB6 · PowerBuilder · FoxPro · Oracle Forms** into modern, cloud-native
-applications — **.NET 10 + Angular 22 / React 19 / Vue 3.5** — with a hybrid engine:
-**70% deterministic, 30% generative AI.**
+</div>
+
+**PhoenixCode** is a platform that modernizes legacy business applications — **Delphi, COBOL, VB6,
+PowerBuilder, FoxPro and Oracle Forms** — into modern, cloud-native systems on **.NET 10 + Angular 22 /
+React 19 / Vue 3.5**. It pairs a deterministic engine with generative AI (**70% deterministic, 30% AI**)
+and, unlike pure code generators, it builds a knowledge graph of the system and **proves the migrated
+app behaves like the original**.
+
+<div align="center">
 
 [**phoenixcode.ai**](https://phoenixcode.ai) · [Pricing](https://phoenixcode.ai/pricing) · [Download Lens](https://phoenixcode.ai/download)
 
