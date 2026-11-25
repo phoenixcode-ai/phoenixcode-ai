@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Hook versionado. Se activa una vez por clon:  git config core.hooksPath tools/git-hooks
+raiz="$(git rev-parse --show-toplevel)"
+"$raiz/tools/sin-datos-personales.sh" --staged || exit 1
+# core.hooksPath deja de lado .git/hooks: si el clon tenía ahí un pre-commit propio, se sigue ejecutando.
+legado="$(git rev-parse --git-common-dir)/hooks/pre-commit"
+if [ -x "$legado" ]; then exec "$legado" "$@"; fi
+exit 0
